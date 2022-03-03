@@ -18,3 +18,7 @@ function counterReducer(state = initialState, action) {
 }
 
 export default counterReducer;
+
+export function incrementCount() {
+  return { type: "count/increment" };
+}
